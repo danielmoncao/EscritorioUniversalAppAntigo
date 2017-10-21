@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="atmempresaconsultoria.livroandroid.com.escritoriouniversalapp.EmpresaActivity"
+    android:background="#b4daf2">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/empresa_menu" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/texto_empresa"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_marginStart="37dp" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginTop="44dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="right"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="CONHEÇA NOSSO ESCRITÓRIO A Contabilidade Universal é uma empresa de soluções contábeis que atua no mercado há mais de 20 anos, sempre primando pela excelência dos serviços prestados aos clientes, colaboradores e parceiros.  Diretor:  Sérgio Rodrigo de Carvalho Monção  Diretora:  Cristiane Aguiar Caldeira Guedes  Onde estamos: Rua Doutor Veloso, 849 - Sala 02 Centro - Montes Claros - Minas Gerais - CEP 39400-074  Nossa Missão: Proporcionar soluções contábeis e empresariais ao cliente,focando na excelência e credibilidade dos serviços prestados, para que possamos satisfazer suas necessidades."
+            android:id="@+id/textView2"
+            android:padding="@dimen/padding_padrao" />
+    </ScrollView>
+
+</RelativeLayout>

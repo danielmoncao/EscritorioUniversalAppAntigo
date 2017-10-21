@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Universal</string>
+    <string name="texto_empresa">A Nossa Empresa</string>
+    <string name="texto_email">email : contuniversal01@gmail.com</string>
+    <string name="texto_endereco">Endereço : Rua Welington Moreira César Alves, 281 - Centro  Montes Claros - MG - CEP 39400-508  Telefone (38) 3221-5540</string>
+    <string name="servicos_online">Serviços OnLine</string>
+    <string name="certidao_negativa">Certidão Negativa de Débito</string>
+    <string name="nota_fiscalelet">Nota Fiscal Eletrônica</string>
+
+</resources>
